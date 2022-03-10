@@ -274,7 +274,7 @@ def info():
 |#Note=>> Educational purpose only              |                                                                          
 +===============================================+
 
-[-]This tool is created under project (LoveyouZara6748)
+[-]This tool is created under project (BrokenHeart)
 	""")
 	input("Press Enter To Continue....")
 	time.sleep(2)
